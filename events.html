@@ -57,22 +57,9 @@
                   <a href="index.html">Accueil</a>
                 </li>
                 <li><a href="gallery.html">Galerie</a></li>
-                <li class="has-children">
+                <li>
                   <a href="players.html">Joueurs</a>
-                  <ul class="dropdown arrow-top">
-                    <li><a href="#">Jakub Bates</a></li>
-                    <li><a href="#">Russell Vance</a></li>
-                    <li><a href="#">Carson Hodgson</a></li>
-                    <li class="has-children">
-                      <a href="#">Sub Menu</a>
-                      <ul class="dropdown">
-                        <li><a href="#">Joshua Fugueroa</a></li>
-                        <li><a href="#">Jakub Bates</a></li>
-                        <li><a href="#">Russell Vance</a></li>
-                        <li><a href="#">Carson Hodgson</a></li>
-                      </ul>
-                    </li>
-                  </ul>
+                  
                 </li>
                 <li class="active"><a href="events.html">Matchs</a></li>
                 <li><a href="about.html">A propos</a></li>
@@ -88,21 +75,21 @@
           </div>
         </div>
       </div>
-
+<style>
+  @media (max-width: 750px) {
+  .hero-wrap-match {
+    /* max-width: 100%; */
+    height: 30vh;
+  }
+}
+</style>
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
-            <div
-              class="hero-wrap text-center"
-              style="background-image: url('images/hero_2.jpg')"
-              data-stellar-background-ratio="0.5"
-            >
+            <div class="hero-wrap-match">
+              <img src="images/portrait/equipe.JPG" alt="FC Le But" class="img-fluid hero-image">
               <div class="hero-contents">
                 <h2>Matchs</h2>
-                <p>
-                  <a href="index.html">Accueil</a> <span class="mx-2">/</span>
-                  <strong>Matchs</strong>
-                </p>
               </div>
             </div>
           </div>
@@ -117,10 +104,9 @@
                 <div><h3>Classement 2022-2023</h3></div>
                 <iframe
                 id="frame-classement"
+                class="frame-classement"
                   src="https://www.kavvv-vb-ov.be/index.php?view=klassement_db&id=7#footer"
-                  width="600"
-                  height="700"
-                  frameborder="5"
+                  
                 ></iframe>
 
           </div>
