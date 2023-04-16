@@ -1102,3 +1102,20 @@ figure figcaption {
     margin: 0 auto;
   }
 }
+@keyframes clignotant {
+  0% {
+    text-shadow: 0 0 15px rgb(255, 0, 0);
+  }
+  50% {
+    text-shadow: 0 0 15px rgb(0, 0, 0);
+  }
+  100% {
+    text-shadow: 0 0 15px rgb(255, 0, 4);
+  }
+}
+
+.titre-reseau {
+  animation: clignotant 2s infinite;
+  color: white;
+  font-weight: bold;
+}
