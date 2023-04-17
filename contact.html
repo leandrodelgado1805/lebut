@@ -57,22 +57,8 @@
                   <a href="index.html">Accueil</a>
                 </li>
                 <li><a href="gallery.html">Galerie</a></li>
-                <li class="has-children">
+                <li>
                   <a href="players.html">Joueurs</a>
-                  <ul class="dropdown arrow-top">
-                    <li><a href="#">Jakub Bates</a></li>
-                    <li><a href="#">Russell Vance</a></li>
-                    <li><a href="#">Carson Hodgson</a></li>
-                    <li class="has-children">
-                      <a href="#">Sub Menu</a>
-                      <ul class="dropdown">
-                        <li><a href="#">Joshua Fugueroa</a></li>
-                        <li><a href="#">Jakub Bates</a></li>
-                        <li><a href="#">Russell Vance</a></li>
-                        <li><a href="#">Carson Hodgson</a></li>
-                      </ul>
-                    </li>
-                  </ul>
                 </li>
                 <li><a href="events.html">Matchs</a></li>
                 <li><a href="about.html">A propos</a></li>
@@ -113,7 +99,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12 col-lg-7 mb-5">
-              <form action="#" class="contact-form">
+              <form action="mail.php" method="post" class="contact-form">
                 <div class="row form-group">
                   <div class="col-md-12 mb-3 mb-md-0">
                     <label class="font-weight-bold" for="fullname"
@@ -123,6 +109,7 @@
                       type="text"
                       id="fullname"
                       class="form-control"
+                      name="fullname"
                       placeholder="Nom complet"
                     />
                   </div>
@@ -134,6 +121,7 @@
                       type="email"
                       id="email"
                       class="form-control"
+                      name="email"
                       placeholder="Adresse mail"
                     />
                   </div>
@@ -145,6 +133,7 @@
                       type="text"
                       id="subject"
                       class="form-control"
+                      name="subject"
                       placeholder="Entrez un Sujet"
                     />
                   </div>
@@ -193,7 +182,7 @@
                 <p class="mb-4"><a href="#">+32 485 82 15 68</a></p>
 
                 <p class="mb-0 font-weight-bold text-black">Adresse mail</p>
-                <p class="mb-0"><a href="#">fclebut@gmail.com</a></p>
+                <p class="mb-0"><a href="#">info@fclebut.be</a></p>
               </div>
             </div>
           </div>
